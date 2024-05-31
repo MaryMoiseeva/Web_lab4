@@ -1,0 +1,117 @@
+/*Описание галереи*/
+.tre1 {
+    float: left;
+    padding: 0 100px 20px 25px;
+    text-align: center;
+ }
+ .text {
+    text-align: center;
+ }
+ .text2 {
+    text-align: center;
+ }
+ .text3 {
+    text-align: center;
+ }
+.tre2 {
+    float: right;
+    padding: 0 20px 20px 50px;
+    text-align: center;
+ }
+ .tre3 {
+    float: left;
+    padding: 0 100px 20px 25px;
+    text-align: center;
+ }
+ .tre4 {
+    float: right;
+    padding: 0 20px 20px 50px;
+    text-align: center;
+ }
+ .tre5 {
+    float: left;
+    padding: 0 100px 20px 25px;
+    text-align: center;
+ }
+ .tre6 {
+    float: right;
+    padding: 0 20px 20px 50px;
+    text-align: center;
+ }
+ .tre7 {
+    float: left;
+    padding: 0 100px 20px 25px;
+    text-align: center;
+ }
+ .tre8 {
+    float: right;
+    padding: 0 20px 20px 50px;
+    text-align: center;
+ }
+
+ .name h2 {
+    background-color: rgba(213, 246, 113, 0.321);
+    color: #fb9c03;
+    font-size: 70px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+/*Шапка*/
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu {
+    flex-grow: 1;
+}
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+.menu a {
+    padding: 8px 10px;
+}
+.logo {
+    margin-right: 30px;
+}
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+}
+.menu a,
+.menu .active {
+  display: block;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+}
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*Подвал*/
+.footer p{
+    text-align: center;
+}
